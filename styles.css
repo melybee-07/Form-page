@@ -1,0 +1,93 @@
+body{
+    background-color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    text-align: center;
+    margin: 2rem;
+}
+form{
+    width: 40rem;
+    background-color: rgb(237, 235, 249);
+    margin: auto;
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgb(0, 0, 0, 0.2);
+    margin-bottom: 10rem;
+}
+
+section{
+    margin-bottom: 1rem;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+    color: rgb(19, 2, 116);
+}
+
+input, textarea, select{
+    width: 100%;
+    font: inherit;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid rgb(134, 114, 249);
+    display: block;
+    border-radius: 4px;
+    
+}
+textarea {
+    resize: none;
+}
+
+input:focus, textarea:focus, select:focus{
+    background-color: aliceblue;
+    border-color: rgb(172, 212, 247);
+}
+
+.uuser {
+    display: flex;
+}
+.uuser label{
+    margin: 0;
+}
+.uuser input {
+    width: auto;
+    margin-left: 0.5rem;
+    
+}
+
+button{
+    cursor: pointer;
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    
+
+}
+#formbutton{
+    text-align: right;
+}
+#clear{
+    background-color: aliceblue;
+    border: 1px solid rgb(30, 29, 29);
+    color: rgb(30, 29, 29);
+}
+#clear:hover{
+    background-color: rgb(220, 236, 250);
+}
+#log{
+    background-color: rgb(6, 39, 68);
+    color: white;
+    border: 1px solid rgb(6, 39, 68);
+}
+#log:hover{
+    background-color: rgb(19, 92, 157);
+    border: 1px solid rgb(19, 92, 157);
+}
